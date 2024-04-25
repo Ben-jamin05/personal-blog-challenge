@@ -1,6 +1,6 @@
 header{
     display: flex;
-    height: 70px;
+    height: 60px;
     flex-wrap: nowrap;
     border-bottom: 5px solid black;
     margin-bottom: 4px;
@@ -14,4 +14,14 @@ header h1{
     position: absolute;
     right: 5px;
     top: 25px;
+}
+
+#light{
+    color: black;
+    background-color: white;
+}
+
+#dark{
+    color: white;
+    background-color: gray;
 }

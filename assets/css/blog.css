@@ -1,3 +1,61 @@
-header{
+:root{
+    --borderForAll: 5px solid black;
+    --cardPaddingLeft: 5px;
+}
+
+.back-btn{
+    position: absolute;
+    right: 125px;
+    top: 25px;
+}
+
+h3{
+    font-size: 14px;
     display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 14px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    border-top: var(--borderForAll);
+    border-bottom: var(--borderForAll);
+    height: 70vh;
+}
+
+footer{
+    border-top: var(--borderForAll);
+    margin-top: 4px;
+}
+
+.blog-card{
+    margin-top: 1%;
+    border: 2px solid black;
+}
+
+.blog-title{
+    font-size: 15px;
+    padding-left: var(--cardPaddingLeft);
+    border-bottom: 1px solid black;
+}
+
+.blog-content{
+    font-size: 15px;
+    padding-left: var(--cardPaddingLeft);
+}
+
+.author-tag{
+    font-size: 13px;
+    padding-left: var(--cardPaddingLeft);
 }

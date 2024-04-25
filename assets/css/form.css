@@ -1,3 +1,9 @@
+:root{
+    --mainHeight: 89vh;
+    --borderForAll: 5px solid black;
+    --textBoxWidth: 97%;
+}
+
 .main{
     display: flex;
 }
@@ -5,9 +11,9 @@
 #left-side{
     flex-basis: 50%;
     margin-right: 3px;
-    height: 100vh;
-    border-right: 5px solid black;
-    border-top: 5px solid black;
+    height: var(--mainHeight);
+    border-right: var(--borderForAll);
+    border-top: var(--borderForAll);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,9 +23,9 @@
 #right-side{
     flex-basis: 50%;
     margin-left: 3px;
-    border-left: 5px solid black;
-    border-top: 5px solid black;
-    height: 100vh;
+    height: var(--mainHeight);
+    border-left: var(--borderForAll);
+    border-top: var(--borderForAll);
 }
 
 h2{
@@ -38,17 +44,17 @@ form{
 }
 
 #username{
-    width: 97%;
+    width: var(--textBoxWidth);
     height: 18px;
 }
 
 #title{
-    width: 97%;
+    width: var(--textBoxWidth);
     height: 18px;
 }
 
 #content{
-    width: 97%;
+    width: var(--textBoxWidth);
     margin-bottom: 10px;
     padding-bottom: 100px;
     text-wrap: wrap;
