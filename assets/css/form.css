@@ -1,0 +1,62 @@
+.main{
+    display: flex;
+}
+
+#left-side{
+    flex-basis: 50%;
+    margin-right: 3px;
+    height: 100vh;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#right-side{
+    flex-basis: 50%;
+    margin-left: 3px;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    height: 100vh;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+
+input{
+    display: block;
+}
+
+form{
+    margin-left: 20px;
+}
+
+#username{
+    width: 97%;
+    height: 18px;
+}
+
+#title{
+    width: 97%;
+    height: 18px;
+}
+
+#content{
+    width: 97%;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+    text-wrap: wrap;
+}
+
+#submit{
+    margin-left: 42%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
