@@ -31,5 +31,5 @@ for (let blog of allBlogs) {
 const backBtn = document.querySelector('.back-btn');
 
 backBtn.addEventListener('click', function () {
-    window.location.href="file:///Users/benjaminhill/bootcamp/challenges/personal-blog-challenge/index.html";
+    window.location.href="./index.html";
 });

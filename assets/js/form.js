@@ -35,5 +35,5 @@ submitButton.addEventListener('click', function (event) {
 
     localStorage.setItem('blogPosts', JSON.stringify(blogPosts));
     event.preventDefault();
-    window.location.href="file:///Users/benjaminhill/bootcamp/challenges/personal-blog-challenge/blog.html"
+    window.location.href="./blog.html";
 });
