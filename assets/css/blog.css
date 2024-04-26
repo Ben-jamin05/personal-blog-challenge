@@ -31,7 +31,7 @@ li a{
 section{
     border-top: var(--borderForAll);
     border-bottom: var(--borderForAll);
-    height: 70vh;
+    height: 70%;
 }
 
 footer{
@@ -42,6 +42,7 @@ footer{
 .blog-card{
     margin-top: 1%;
     border: 2px solid black;
+    margin-bottom: 1%;
 }
 
 .blog-title{

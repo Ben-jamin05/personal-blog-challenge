@@ -27,3 +27,9 @@ for (let blog of allBlogs) {
 
     console.log(blog);
 }
+
+const backBtn = document.querySelector('.back-btn');
+
+backBtn.addEventListener('click', function () {
+    window.location.href="file:///Users/benjaminhill/bootcamp/challenges/personal-blog-challenge/index.html";
+});
